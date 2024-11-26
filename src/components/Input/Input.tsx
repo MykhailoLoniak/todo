@@ -62,7 +62,7 @@ export const Input: React.FC<InputProps> = ({ err, setErr, stateStore, setStateS
           Add new todo
           <input
             type="text"
-            placeholder="Введіть текст..."
+            placeholder="Enter the text..."
             value={input}
             onChange={onChange}
             className={styles.input}
