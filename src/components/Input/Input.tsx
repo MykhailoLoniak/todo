@@ -27,7 +27,6 @@ export const Input: React.FC<InputProps> = ({ err, setErr, stateStore, setStateS
       return;
     }
 
-    // Перевіряємо, чи існує дублікат
     const isDuplicate = stateStore.some(e => e.title === trimmedInput);
 
     if (isDuplicate) {
