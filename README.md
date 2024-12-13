@@ -9,4 +9,4 @@
 Run these commands in your terminal:
 
 - npm install or npm i
-- npm star
+- npm start
